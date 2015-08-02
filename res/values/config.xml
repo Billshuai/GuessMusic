@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="pay_tip_answer">5</integer>
+    <integer name="pay_delete_word">2</integer>
+     <integer name="pass_add_coin">3</integer>
+
+</resources>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Frame 1 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/index_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <include layout="@layout/top_bar" />
+
+        <include layout="@layout/pan_layout" />
+
+        <include layout="@layout/name_select" />
+
+      
+    
+    </LinearLayout>
+    <!-- 答案正确界面 -->
+    <include layout="@layout/float_buttons" />
+    <include layout="@layout/answer_right" />
+
+</FrameLayout>
